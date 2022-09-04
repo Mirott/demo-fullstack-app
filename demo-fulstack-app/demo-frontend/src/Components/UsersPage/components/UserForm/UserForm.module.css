@@ -1,0 +1,32 @@
+.container {
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 1px grey;
+    width: 100%;
+    max-width: 400px;
+    min-height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.submitButton{
+    color: white;
+    background-color: rgb(2, 113, 232);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.submitButton:hover{
+    cursor: pointer;
+    background-color: blue;
+}

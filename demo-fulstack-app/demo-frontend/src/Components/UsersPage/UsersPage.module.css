@@ -1,0 +1,45 @@
+.createButton{
+    background-color: rgb(0, 171, 0);
+    color: white;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.createButton:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.deleteUser{
+    background-color: rgb(226, 43, 43);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.deleteUser:hover {
+    cursor: pointer;
+    background-color: rgb(126, 0, 0);
+}
+
+.updateUser{
+    background-color: rgb(226, 192, 43);
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.updateUser:hover {
+    cursor: pointer;
+    background-color: rgb(126, 124, 0);
+}

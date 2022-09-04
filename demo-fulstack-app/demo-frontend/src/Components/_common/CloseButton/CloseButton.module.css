@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: rgb(206, 202, 202);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-bottom: 10px;
+    }
+}

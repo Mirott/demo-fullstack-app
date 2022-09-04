@@ -1,0 +1,21 @@
+.container {
+
+}
+
+.shadow{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.children{
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
